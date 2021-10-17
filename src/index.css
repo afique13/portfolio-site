@@ -1,12 +1,12 @@
 
 @font-face {
-  font-family: AnonymousPro;
-  src: url(Fonts/AnonymousPro.ttf);
+  font-family: NTR;
+  src: url(Fonts/NTR.ttf);
 }
 
 body {
   margin: 0;
-  font-family: AnonymousPro;
+  font-family: NTR;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: rgb(48, 44, 44);

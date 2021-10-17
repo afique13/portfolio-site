@@ -33,15 +33,16 @@ export const Nav = () => {
     };
 
     const TypographyStyle = {
-        fontFamily: 'AnonymousPro',
+        fontFamily: 'NTR',
+        fontSize: '1.75rem',
         textAlign: "center",
-        padding: "1vw 2vw",
+        padding: "1vw 2.5vw",
         color: "#39FF14"
     }
 
     const theme = createTheme({
         typography: {
-            fontFamily: "AnonymousPro"
+            fontFamily: "NTR"
         }
     });
 
@@ -63,7 +64,7 @@ export const Nav = () => {
                 onKeyDown={toggleDrawer(false)}
             >
                 <List style={{ backgroundColor: "rgb(48, 44, 44)" }}>
-                    {['<Home>','<Education>','<Skills>','<Experience>','<Contact>'].map((text) => (
+                    {['<home>','<education>','<skills>','<experience>','<contact>'].map((text) => (
                     <ListItem style={TypographyStyle} button key={text}>
                         <ListItemText primary={text} />
                     </ListItem>
@@ -80,7 +81,7 @@ export const Nav = () => {
                 <ThemeProvider theme={theme}>
                     <AppBar elevation={0} color="transparent" position="sticky">
                         <div style={{ display: "flex", margin: "0 auto" }}>
-                            {['<Home>','<Education>','<Skills>','<Experience>','<Contact>'].map((navPrompt) => (
+                            {['<home>','<education>','<skills>','<experience>','<contact>'].map((navPrompt) => (
                                 <Typography key={navPrompt} style={TypographyStyle} variant="h6" onMouseEnter={onHover} onMouseLeave={onLeave}>
                                     {navPrompt}
                                 </Typography>
