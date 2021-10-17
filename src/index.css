@@ -9,7 +9,8 @@ body {
   font-family: AnonymousPro;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: black;
+  background-color: rgb(48, 44, 44);
+  scroll-behavior: smooth;
 }
 
 code {
