@@ -29,7 +29,7 @@ export const Nav = () => {
           return;
         }
     
-        setState({ ...state, ["menu"]: open })
+        setState({ ...state, "menu": open })
     };
 
     const TypographyStyle = {
