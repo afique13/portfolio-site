@@ -11,9 +11,11 @@
     height: 1.5em;
     margin-top: 50px;
     font-size: 10vw;
+
+    /*Fix animation later - need to look more like typing and refer to Gazi Jarin portfolios*/
     animation: 
-      typing 3.5s steps(50, end),
-      blink-caret .75s step-end infinite;
+      typing 2.5s linear,
+      blink-caret 1.0s step-end infinite;
   }
   
   /* The typing effect */
