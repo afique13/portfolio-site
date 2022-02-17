@@ -1,0 +1,14 @@
+
+.mail {
+    outline-style: solid;
+    border-radius: 15px;
+    outline-color: #39FF14;
+    color: white;
+    font-size: 4vw;
+    margin: 2rem 0;
+}
+
+.message {
+    padding: 1rem;
+    font-size: 3vw;
+}
